@@ -5,7 +5,7 @@ const MainContent = () => {
     return (
         <div className='flex-1 transition-all bg-[#F3F5F7] duration-300 px-3 h-full overflow-hidden'>
             <div
-                className='bg-white border-2 rounded-md h-full p-6 shadow-sm flex flex-col items-center justify-center'>
+                className='bg-white border-2 rounded-md  border-[rgba(0,0,0,0.08)] h-full p-6 shadow-sm flex flex-col items-center justify-center'>
                 <FolderPlus size={120} className='text-[#3B40E8]/90'/>
                 <p className="mt-4 text-sm text-gray-500">
                     No files have been added yet
