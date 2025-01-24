@@ -10,7 +10,7 @@ const Sidebar = ({isOpen, setIsOpen}) => {
             title: 'Profile',
             icon: User,
             hasDropdown: true,
-            dropdownItems: ['Personal Info', 'Account Settings', 'Billing']
+            dropdownItems: ['Personal Info', 'Account Settings']
         },
         {
             title: 'Messages',
